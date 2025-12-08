@@ -1,6 +1,9 @@
-streamlit==1.39.0
-tensorflow-cpu==2.12.0
-numpy
-pillow
-gdown
-protobuf==3.20.*
+streamlit==1.36.0
+tensorflow==2.12.0
+numpy==1.23.5
+pandas==1.5.3
+gdown==4.7.1
+pickle5==0.0.12
+h5py==3.8.0
+keras==2.12.0
+protobuf==3.20.3
