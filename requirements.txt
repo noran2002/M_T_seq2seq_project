@@ -1,6 +1,8 @@
 streamlit
 tensorflow-cpu
+Keras
 numpy
 gdown
 rich
+
 
