@@ -42,7 +42,7 @@ download_if_missing(FILES["meta"], META_PATH)
 # Load model + tokenizers + meta
 # ================================
 
-model = load_model(MODEL_PATH)
+model = load_model(MODEL_PATH, compile=False)
 eng_tokenizer = pickle.load(open(ENG_TOKENIZER_PATH, "rb"))
 arb_tokenizer = pickle.load(open(ARB_TOKENIZER_PATH, "rb"))
 meta = pickle.load(open(META_PATH, "rb"))
